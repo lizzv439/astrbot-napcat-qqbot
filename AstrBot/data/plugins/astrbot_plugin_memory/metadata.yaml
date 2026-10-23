@@ -1,0 +1,4 @@
+name: astrbot_plugin_memory
+desc: 让主人用「记住 xxx / 忘记 xxx」命令给机器人写入长期记忆，并自动注入到每次对话
+author: dsh
+version: 1.0.0

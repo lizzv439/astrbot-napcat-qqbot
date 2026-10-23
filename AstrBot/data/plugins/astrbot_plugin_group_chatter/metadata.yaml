@@ -1,0 +1,4 @@
+name: astrbot_plugin_group_chatter
+desc: 群聊里按 3~4 句回一句的频率接话，被 @ 或提到关键词时必回，并带上最近的群聊上下文
+author: dsh
+version: 1.0.0

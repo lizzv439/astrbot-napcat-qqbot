@@ -1,0 +1,18 @@
+# 本地配置（含 QQ 号、API Key、token）不要提交
+scripts/config.local.json
+AstrBot/data/plugins/astrbot_plugin_memory/config.json
+AstrBot/data/plugins/astrbot_plugin_memory/memories.json
+AstrBot/data/plugins/astrbot_plugin_face_sender/config.json
+AstrBot/data/plugins/astrbot_plugin_group_chatter/group_memory.json
+NapCat/config/onebot11*.json
+!NapCat/config/onebot11.example.json
+NapCat/config/webui.json
+
+# 运行时
+*.log
+*.pyc
+__pycache__/
+*.tmp
+
+.ssh/
+*.bundle

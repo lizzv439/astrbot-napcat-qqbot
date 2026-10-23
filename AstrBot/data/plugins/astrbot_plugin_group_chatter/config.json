@@ -1,0 +1,11 @@
+{
+  "keywords": ["deepseek", "ds", "大肥鱼", "肥鱼", "ai"],
+  "min_gap": 3,
+  "max_gap": 4,
+  "context_messages": 40,
+  "max_keep": 120,
+  "participants_shown": 8,
+  "engage_ttl_seconds": 120,
+  "other_question_gap": 6,
+  "min_reply_interval_seconds": 6
+}

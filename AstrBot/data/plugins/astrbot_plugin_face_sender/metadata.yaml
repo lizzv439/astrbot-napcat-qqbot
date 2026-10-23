@@ -1,0 +1,4 @@
+name: astrbot_plugin_face_sender
+desc: 把模型输出里的 [[face:ID]] 标记转换成 QQ 小黄脸表情（Face 消息段）
+author: dsh
+version: 1.0.0
