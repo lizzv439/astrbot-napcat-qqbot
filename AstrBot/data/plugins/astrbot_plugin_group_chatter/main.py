@@ -324,6 +324,11 @@ class GroupChatter(star.Star):
                     + SKIP_MARK
                     + "；想插一句就短短接一下，别长篇。\n"
                 )
+            if at_me and not (event.message_str or "").strip():
+                extra_rule += (
+                    "7. 这条只有 @、没有文字：顺着上面的前文自然接一句，"
+                    "别问「干嘛」「什么事」「找我干嘛」这种话。\n"
+                )
             rules = (
                 "\n\n<群聊规则>\n"
                 f"当前说话人：{current}\n"

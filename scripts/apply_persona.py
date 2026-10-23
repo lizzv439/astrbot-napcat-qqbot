@@ -56,7 +56,7 @@ def main() -> None:
     cfg = json.loads(Path(config_path).read_text(encoding="utf-8"))
     ps = cfg["platform_settings"]
     cfg["wake_prefix"] = ["/", ""]
-    ps["empty_mention_waiting"] = True
+    ps["empty_mention_waiting"] = False
     ps["reply_with_mention"] = False
     cfg["provider_settings"]["identifier"] = True
     Path(config_path).write_text(
